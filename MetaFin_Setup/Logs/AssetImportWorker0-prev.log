@@ -1,0 +1,284 @@
+Using pre-set license
+Built from '2020.3/staging' branch; Version is '2020.3.26f1 (7298b473bc1a) revision 7510196'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19043) 64bit Professional' Language: 'en' Physical Memory: 28596 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2020.3.26f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/George/Documents/GitHub/BuildQuest/MetaFin_Setup
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+60597
+Successfully changed project path to: C:/Users/George/Documents/GitHub/BuildQuest/MetaFin_Setup
+C:/Users/George/Documents/GitHub/BuildQuest/MetaFin_Setup
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 81.69 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.26f1 (7298b473bc1a)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/George/Documents/GitHub/BuildQuest/MetaFin_Setup/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1650 (ID=0x1f82)
+    Vendor:   
+    VRAM:     3962 MB
+    Driver:   27.21.14.5671
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56524
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.26f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.004941 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 75.23 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.681 seconds
+Domain Reload Profiling:
+	ReloadAssembly (681ms)
+		BeginReloadAssembly (62ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (523ms)
+			LoadAssemblies (60ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (168ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (29ms)
+			SetupLoadedEditorAssemblies (213ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (7ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (75ms)
+				BeforeProcessingInitializeOnLoad (17ms)
+				ProcessInitializeOnLoadAttributes (83ms)
+				ProcessInitializeOnLoadMethodAttributes (29ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.009891 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 85.11 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.488 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1489ms)
+		BeginReloadAssembly (154ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (18ms)
+		EndReloadAssembly (1263ms)
+			LoadAssemblies (106ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (447ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (59ms)
+			SetupLoadedEditorAssemblies (518ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (85ms)
+				BeforeProcessingInitializeOnLoad (134ms)
+				ProcessInitializeOnLoadAttributes (258ms)
+				ProcessInitializeOnLoadMethodAttributes (23ms)
+				AfterProcessingInitializeOnLoad (12ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 0.78 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3574 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 208.2 MB.
+System memory in use after: 208.4 MB.
+
+Unloading 33 unused Assets to reduce memory usage. Loaded Objects now: 4011.
+Total: 3.678900 ms (FindLiveObjects: 0.293200 ms CreateObjectMapping: 0.090000 ms MarkObjects: 3.216400 ms  DeleteObjects: 0.078200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/MoralisWeb3ApiSdk/Example/MetaFin.unity
+  artifactKey: Guid(3bca9b04dc31ba74581377160d0d03ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MoralisWeb3ApiSdk/Example/MetaFin.unity using Guid(3bca9b04dc31ba74581377160d0d03ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e887292a25ac8cf08afbbdf853646cb') in 0.020304 seconds 
+  Import took 0.025350 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 97.527455 seconds.
+  path: Assets/MoralisWeb3ApiSdk/Prefabs/AndroidMenu.prefab
+  artifactKey: Guid(3cd61c42097ce224b95d494817147567) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MoralisWeb3ApiSdk/Prefabs/AndroidMenu.prefab using Guid(3cd61c42097ce224b95d494817147567) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '037cd95a06263472bfd706ac1d88c749') in 0.105905 seconds 
+  Import took 0.111140 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000168 seconds.
+  path: Assets/MoralisWeb3ApiSdk/Prefabs/MoralisSetup.prefab
+  artifactKey: Guid(116667ed98661304da1568439e2a3426) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MoralisWeb3ApiSdk/Prefabs/MoralisSetup.prefab using Guid(116667ed98661304da1568439e2a3426) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Setup your Moralis Server URI and Application Id before running. For more help read the Quick Start on: https://github.com/ethereum-boilerplate/ethereum-unity-boilerplate#-quick-start
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+MoralisWeb3ApiSdk.MoralisController:OnValidate () (at Assets/MoralisWeb3ApiSdk/MoralisController.cs:62)
+
+(Filename: Assets/MoralisWeb3ApiSdk/MoralisController.cs Line: 62)
+
+ -> (artifact id: '7e0292cfc6aee8da824658d6f4df6300') in 0.012930 seconds 
+  Import took 0.017644 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000179 seconds.
+  path: Assets/MoralisWeb3ApiSdk/Prefabs/iOSMenu.prefab
+  artifactKey: Guid(f1a5da669112ed44a9e1c61ba3122e13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MoralisWeb3ApiSdk/Prefabs/iOSMenu.prefab using Guid(f1a5da669112ed44a9e1c61ba3122e13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8395bd2fd9a72ff8250b2304234f50d4') in 0.032284 seconds 
+  Import took 0.037071 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 51.055425 seconds.
+  path: Assets/MoralisWeb3ApiSdk/Example/Prefabs/Chest.prefab
+  artifactKey: Guid(e12913c520c20f442bfcdfe22afa1179) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MoralisWeb3ApiSdk/Example/Prefabs/Chest.prefab using Guid(e12913c520c20f442bfcdfe22afa1179) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28a1bd3e2f676c24c32956d22b21b00f') in 0.083447 seconds 
+  Import took 0.088863 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000173 seconds.
+  path: Assets/MoralisWeb3ApiSdk/Example/Prefabs/QrMenu.prefab
+  artifactKey: Guid(7b9fd38d0dd438c4ba19418ca8e9a8ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MoralisWeb3ApiSdk/Example/Prefabs/QrMenu.prefab using Guid(7b9fd38d0dd438c4ba19418ca8e9a8ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6760173d24f7547776dc525c74992b04') in 0.011808 seconds 
+  Import took 0.016595 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000204 seconds.
+  path: Assets/MoralisWeb3ApiSdk/Example/Prefabs/Footman.prefab
+  artifactKey: Guid(43280ced9e30a66458bd752cd91509b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MoralisWeb3ApiSdk/Example/Prefabs/Footman.prefab using Guid(43280ced9e30a66458bd752cd91509b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ae512bc4713af571e2ac20c747c9282') in 0.062499 seconds 
+  Import took 0.067933 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000172 seconds.
+  path: Assets/MoralisWeb3ApiSdk/Example/Prefabs/WalletConnect.prefab
+  artifactKey: Guid(ce99fd52594d5e54f972689a083ac409) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MoralisWeb3ApiSdk/Example/Prefabs/WalletConnect.prefab using Guid(ce99fd52594d5e54f972689a083ac409) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca2ff12786a7089b42942360940a9017') in 0.018874 seconds 
+  Import took 0.023644 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000181 seconds.
+  path: Assets/MoralisWeb3ApiSdk/Example/Prefabs/Healthbar.prefab
+  artifactKey: Guid(f1702aad547e3804b83fb84f802d69eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MoralisWeb3ApiSdk/Example/Prefabs/Healthbar.prefab using Guid(f1702aad547e3804b83fb84f802d69eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c707fd3cbaedce4aee017b2d1328bad') in 0.009849 seconds 
+  Import took 0.014685 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000218 seconds.
+  path: Assets/MoralisWeb3ApiSdk/Example/Prefabs/OrcWarrior.prefab
+  artifactKey: Guid(f8d507222816f5e40946bddb9c8d0320) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MoralisWeb3ApiSdk/Example/Prefabs/OrcWarrior.prefab using Guid(f8d507222816f5e40946bddb9c8d0320) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56c3ff392758fabfe601c3998eb7fab8') in 0.037357 seconds 
+  Import took 0.043278 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.009286 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.85 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.300 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1301ms)
+		BeginReloadAssembly (134ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (42ms)
+		EndReloadAssembly (1093ms)
+			LoadAssemblies (108ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (438ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (40ms)
+			SetupLoadedEditorAssemblies (390ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (116ms)
+				ProcessInitializeOnLoadAttributes (240ms)
+				ProcessInitializeOnLoadMethodAttributes (17ms)
+				AfterProcessingInitializeOnLoad (9ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.80 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3547 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 223.0 MB.
+System memory in use after: 223.3 MB.
+
+Unloading 27 unused Assets to reduce memory usage. Loaded Objects now: 4023.
+Total: 3.441400 ms (FindLiveObjects: 0.293000 ms CreateObjectMapping: 0.090500 ms MarkObjects: 3.032800 ms  DeleteObjects: 0.023600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file

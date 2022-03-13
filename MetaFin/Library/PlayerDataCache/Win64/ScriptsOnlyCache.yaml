@@ -7,7 +7,6 @@ ScriptsOnlyBuild:
     - ChestController
     - HealthBar
     - MainMenuScript
-    - Moralis.Network.Client.MainThreadUtil
     - MoralisWeb3ApiSdk.MoralisController
     - MouseLook
     - OrcController
@@ -39,12 +38,6 @@ ScriptsOnlyBuild:
     - TMPro.TMP_SpriteAsset
     - TMPro.TMP_StyleSheet
     - TMPro.TextMeshProUGUI
-    UnityEditor.Graphs.dll:
-    - UnityEditor.Graphs.AnimationBlendTree.Graph
-    - UnityEditor.Graphs.AnimationBlendTree.GraphGUI
-    - UnityEditor.Graphs.AnimationStateMachine.Graph
-    - UnityEditor.Graphs.AnimationStateMachine.GraphGUI
-    - UnityEditor.Graphs.AnimatorControllerTool
     UnityEditor.TestRunner.dll:
     - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
     - UnityEditor.TestTools.TestRunner.TestListCacheData
@@ -108,95 +101,95 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 9136}
+      Script: {instanceID: 1532}
     - Class: 114
-      Script: {instanceID: 9170}
+      Script: {instanceID: 1534}
     - Class: 114
-      Script: {instanceID: 9330}
+      Script: {instanceID: 1536}
     - Class: 114
-      Script: {instanceID: 9488}
+      Script: {instanceID: 1538}
     - Class: 114
-      Script: {instanceID: 9664}
+      Script: {instanceID: 1540}
     - Class: 114
-      Script: {instanceID: 9840}
+      Script: {instanceID: 1542}
     - Class: 114
-      Script: {instanceID: 9880}
+      Script: {instanceID: 1632}
     - Class: 114
-      Script: {instanceID: 9980}
+      Script: {instanceID: 1792}
     - Class: 114
-      Script: {instanceID: 10078}
+      Script: {instanceID: 1950}
     - Class: 114
-      Script: {instanceID: 10114}
+      Script: {instanceID: 2128}
     - Class: 114
-      Script: {instanceID: 10272}
+      Script: {instanceID: 2308}
     - Class: 114
-      Script: {instanceID: 10512}
+      Script: {instanceID: 2348}
     - Class: 114
-      Script: {instanceID: 10544}
+      Script: {instanceID: 2450}
     - Class: 114
-      Script: {instanceID: 10808}
+      Script: {instanceID: 2552}
     - Class: 114
-      Script: {instanceID: 10852}
+      Script: {instanceID: 2590}
     - Class: 114
-      Script: {instanceID: 10886}
+      Script: {instanceID: 2988}
     - Class: 114
-      Script: {instanceID: 11222}
+      Script: {instanceID: 3284}
     - Class: 114
-      Script: {instanceID: 11338}
+      Script: {instanceID: 3328}
     - Class: 114
-      Script: {instanceID: 11386}
+      Script: {instanceID: 3362}
     - Class: 114
-      Script: {instanceID: 11406}
+      Script: {instanceID: 3700}
     - Class: 114
-      Script: {instanceID: 11652}
+      Script: {instanceID: 3824}
     - Class: 114
-      Script: {instanceID: 12002}
+      Script: {instanceID: 3872}
     - Class: 114
-      Script: {instanceID: 12164}
+      Script: {instanceID: 3892}
     - Class: 114
-      Script: {instanceID: 12276}
+      Script: {instanceID: 4138}
     - Class: 114
-      Script: {instanceID: 12290}
+      Script: {instanceID: 4654}
     - Class: 114
-      Script: {instanceID: 12368}
+      Script: {instanceID: 4766}
     - Class: 114
-      Script: {instanceID: 12396}
+      Script: {instanceID: 4780}
     - Class: 114
-      Script: {instanceID: 12614}
+      Script: {instanceID: 4860}
     - Class: 114
-      Script: {instanceID: 12698}
+      Script: {instanceID: 4890}
     - Class: 114
-      Script: {instanceID: 12708}
+      Script: {instanceID: 5194}
     - Class: 114
-      Script: {instanceID: 12758}
+      Script: {instanceID: 5204}
     - Class: 114
-      Script: {instanceID: 12892}
+      Script: {instanceID: 5254}
     - Class: 114
-      Script: {instanceID: 13010}
+      Script: {instanceID: 5388}
     - Class: 114
-      Script: {instanceID: 13052}
+      Script: {instanceID: 5506}
     - Class: 114
-      Script: {instanceID: 13328}
+      Script: {instanceID: 5548}
     - Class: 114
-      Script: {instanceID: 13390}
+      Script: {instanceID: 5886}
     - Class: 114
-      Script: {instanceID: 13628}
+      Script: {instanceID: 6126}
     - Class: 114
-      Script: {instanceID: 13770}
+      Script: {instanceID: 6268}
     - Class: 114
-      Script: {instanceID: 13786}
+      Script: {instanceID: 6284}
     - Class: 114
-      Script: {instanceID: 13904}
+      Script: {instanceID: 6402}
     - Class: 114
-      Script: {instanceID: 14170}
+      Script: {instanceID: 6672}
     - Class: 114
-      Script: {instanceID: 14380}
+      Script: {instanceID: 6884}
     - Class: 114
-      Script: {instanceID: 14592}
+      Script: {instanceID: 7098}
     - Class: 114
-      Script: {instanceID: 14876}
+      Script: {instanceID: 7386}
     - Class: 114
-      Script: {instanceID: 14950}
+      Script: {instanceID: 7462}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -236,6 +229,42 @@ ScriptsOnlyBuild:
   scriptHashData:
   - hash:
       serializedVersion: 2
+      Hash: 69415240821be7986b27e72bf9609a30
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Button
+  - hash:
+      serializedVersion: 2
+      Hash: 699619b86d9359741a4f58540298c80b
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Text
+  - hash:
+      serializedVersion: 2
+      Hash: ae83e830e7a90c0aff918c4c2e520825
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: GraphicRaycaster
+  - hash:
+      serializedVersion: 2
+      Hash: 7ab0e790220bdca831fdd886b339039d
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: GridLayoutGroup
+  - hash:
+      serializedVersion: 2
+      Hash: a6e561615949734e9f12f9b61661f43e
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Image
+  - hash:
+      serializedVersion: 2
+      Hash: 748dd2a2a28da4e618912da5ac45684b
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.EventSystems
+    className: StandaloneInputModule
+  - hash:
+      serializedVersion: 2
       Hash: e42df03a00dc2c71afedf0af09f062e0
     assemblyName: LeanTransition.dll
     namespaceName: Lean.Transition.Method
@@ -246,12 +275,6 @@ ScriptsOnlyBuild:
     assemblyName: LeanTransition.dll
     namespaceName: Lean.Transition.Method
     className: LeanRectTransformOffsetMax_x
-  - hash:
-      serializedVersion: 2
-      Hash: a6e561615949734e9f12f9b61661f43e
-    assemblyName: UnityEngine.UI.dll
-    namespaceName: UnityEngine.UI
-    className: Image
   - hash:
       serializedVersion: 2
       Hash: b0265c372e52043c823b542462f5f1fe
@@ -506,12 +529,6 @@ ScriptsOnlyBuild:
     className: TestRunCallbackListener
   - hash:
       serializedVersion: 2
-      Hash: ae83e830e7a90c0aff918c4c2e520825
-    assemblyName: UnityEngine.UI.dll
-    namespaceName: UnityEngine.UI
-    className: GraphicRaycaster
-  - hash:
-      serializedVersion: 2
       Hash: e637d5beedb3a6559aba9ccdfa511dd3
     assemblyName: LeanCommon.dll
     namespaceName: Lean.Common.Examples
@@ -582,12 +599,6 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
     className: ToggleGroup
-  - hash:
-      serializedVersion: 2
-      Hash: 69415240821be7986b27e72bf9609a30
-    assemblyName: UnityEngine.UI.dll
-    namespaceName: UnityEngine.UI
-    className: Button
   - hash:
       serializedVersion: 2
       Hash: 6c95a55f24f6c6cd4c5379f5911a3542
@@ -896,12 +907,6 @@ ScriptsOnlyBuild:
     className: LeanRectTransformAnchorMin
   - hash:
       serializedVersion: 2
-      Hash: 7ab0e790220bdca831fdd886b339039d
-    assemblyName: UnityEngine.UI.dll
-    namespaceName: UnityEngine.UI
-    className: GridLayoutGroup
-  - hash:
-      serializedVersion: 2
       Hash: 3272e67e2a332257cb7e1e279da586ab
     assemblyName: LeanCommon.dll
     namespaceName: Lean.Common
@@ -1016,12 +1021,6 @@ ScriptsOnlyBuild:
     className: LeanPulse
   - hash:
       serializedVersion: 2
-      Hash: 699619b86d9359741a4f58540298c80b
-    assemblyName: UnityEngine.UI.dll
-    namespaceName: UnityEngine.UI
-    className: Text
-  - hash:
-      serializedVersion: 2
       Hash: 82fa046aa9efa49c6a613713c447cc65
     assemblyName: LeanTransition.dll
     namespaceName: Lean.Transition.Method
@@ -1116,12 +1115,6 @@ ScriptsOnlyBuild:
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: PlayerController
-  - hash:
-      serializedVersion: 2
-      Hash: 748dd2a2a28da4e618912da5ac45684b
-    assemblyName: UnityEngine.UI.dll
-    namespaceName: UnityEngine.EventSystems
-    className: StandaloneInputModule
   - hash:
       serializedVersion: 2
       Hash: f7858108331b563fb41b80b729297acd

@@ -43,14 +43,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 411f905c051c23f4fb5890879a506219, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  MoralisApplicationId: APPLICATION ID
-  MoralisServerURI: MORALIS SERVER ID
-  ApplicationName: Moralis Boilerplate
-  Version: 1.0.0
-  ApplicationDescription: This application provdies an example of how to you Moralis
-    in a Unity 3D Game
+  MoralisServerURI: https://trwqhlby7k0f.usemoralis.com:2053/server
+  MoralisApplicationId: uh5rrAih1daQ4LaHyIZEvpnozJ1J95fFTltS6ess
+  ApplicationName: MetaFin Boilerplate
+  Version: 0.0.0.1
+  ApplicationDescription: This application provdies an example of MetaFin
   ApplicationIcons:
   - https://moralis.io/wp-content/uploads/2021/06/Powered-by-Moralis-Badge-Black.svg
-  ApplicationUrl: https://www.moralis.io
-  Web3RpcNodeUrl: SPEEDY NODE URL
+  ApplicationUrl: https://example.com
   walletConnect: {fileID: 0}

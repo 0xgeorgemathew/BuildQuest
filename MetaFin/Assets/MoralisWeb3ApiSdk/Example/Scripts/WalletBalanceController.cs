@@ -76,7 +76,7 @@ public class WalletBalanceController : MonoBehaviour
             addressText.text = addr;
 
 #if UNITY_WEBGL
-            // Retrieve account balanace.
+            //Retrieve account balanace
             NativeBalance bal =
                 await MoralisInterface.GetClient().Web3Api.Account.GetNativeBalance(addr.ToLower(),
                                             (ChainList)ChainId);
@@ -98,7 +98,7 @@ public class WalletBalanceController : MonoBehaviour
             // Display native token amount (ETH) in fractions of ETH.
             // NOTE: May be better to link this to chain since some tokens may have
             // more than 18 sigjnificant figures.
-            balanceText.text = string.Format("{0:0.##} ETH", balance / (double)Mathf.Pow(10.0f, 18.0f));
+            balanceText.text = string.Format("{0:0.##} MATIC", balance / (double)Mathf.Pow(10.0f, 18.0f));
         }
         else
         {
