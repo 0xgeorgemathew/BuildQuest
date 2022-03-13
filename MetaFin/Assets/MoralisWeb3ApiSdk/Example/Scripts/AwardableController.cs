@@ -33,6 +33,7 @@ using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using UnityEngine;
+using UnityEngine.UI;
 using Cysharp.Threading.Tasks;
 using System.Numerics;
 #if UNITY_WEBGL
@@ -51,7 +52,9 @@ using Moralis.Web3Api.Models;
 /// Sample game script used to demo how to use NFTs and interact with Nethereum contract calls.
 /// </summary>
 public class AwardableController : MonoBehaviour
-{
+
+      
+{   
     public string NftTokenId;
     public string AwardContractAddress;
 
@@ -59,13 +62,45 @@ public class AwardableController : MonoBehaviour
 
     private bool isInitialized = false;
     private bool canBeClaimed = false;
+    public GameObject stake;
+    public GameObject unstake;
+    public Text UserValue;
 
     // Start is called before the first frame update
     async void Awake()
     {
        
     }
+    public async void Stake()
+
+    {
+        MoralisUser user = await MoralisInterface.GetUserAsync();
+        HexBigInteger gas = new HexBigInteger(0);
+        string addr = user.authData["moralisEth"]["id"].ToString();
+        string stringadr = addr;
+        object[] spars = new object[0];
+        string stk = await MoralisInterface.SendEvmTransactionAsync("Metafin", "mumbai", "stakeTokens", addr, gas, new HexBigInteger("0x0"), spars);
+        Function f = MoralisInterface.EvmContractFunctionInstance("Metafin", "mumbai", "getUserTotalValue");
+        object[] usraddr = {"0xb5f06865368fFe237484CB8331A040EE4D03a12e"};
+        string UserTotalValue = await f.CallAsync(usraddr);
+    }
+    public async void unStake()
+
+    {
+        MoralisUser user = await MoralisInterface.GetUserAsync();
+        HexBigInteger gas = new HexBigInteger(0);
+        string addr = user.authData["moralisEth"]["id"].ToString();
+        object[] uspars = new object[0];
+        string ustk = await MoralisInterface.SendEvmTransactionAsync("Metafin", "mumbai", "unstakeTokens", addr, gas, new HexBigInteger("0x0"), uspars);
+
+    }
+
+
+
     
+    
+    
+
     // Update is called once per frame
     async void Update()
     {
@@ -136,7 +171,8 @@ public class AwardableController : MonoBehaviour
             }
         }
     }
-
+    // Callig the stake function from MetaFin Contract
+   
     private async UniTask ClaimRewardAsync()
     {
         // Do not process if already owned as the claim will fail in the contract call and waste gas fees.
@@ -165,11 +201,17 @@ public class AwardableController : MonoBehaviour
 
             // Convert token id to hex as this is what the contract call expects
             object[] pars = new object[] { bi.ToString("x") };
+            object[] spars = new object[0];
 
             // Set gas estimate
             HexBigInteger gas = new HexBigInteger(0);
             // Call the contract to claim the NFT reward.
             string resp = await MoralisInterface.SendEvmTransactionAsync("Rewards", "mumbai", "claimReward", addr, gas, new HexBigInteger("0x0"), pars);
+            string stk = await MoralisInterface.SendEvmTransactionAsync("Metafin", "mumbai", "stakeTokens", addr, gas, new HexBigInteger("0x0"), spars);
+
+
+            // I need ContractName,chainID,FunctionName,Useraddress,gas,value,
+
 #endif
             // Hide the NFT GameObject since it has been claimed
             // You could also play a victory sound etc.
